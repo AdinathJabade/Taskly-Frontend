@@ -1,9 +1,5 @@
 # **Taskly-Frontend**
 
-```markdown
-- Frontend Live Demo: [https://Taskly-Frontend.netlify.app](https://Taskly-Frontend.netlify.app)
-
-# Taskly–Frontend
 
 **Taskly App Frontend** provides the user interface for MyTodo, allowing users to register, login, and manage their tasks. Built with **HTML, CSS, and JavaScript**, it communicates with the backend API.
 
@@ -28,12 +24,19 @@
 ## **Folder Structure**
 
 Taskly-Frontend/
+
 ├── index.html # To-Do page
+
 ├── login.html # Login page
+
 ├── register.html # Registration page
+
 ├── style.css # Styling
+
 ├── auth.js # Login & Register logic
+
 ├── script.js # To-Do CRUD logic
+
 └── .gitignore
 
 yaml
@@ -43,7 +46,7 @@ Copy code
 
 ## **Setup & Usage**
 
-1. Clone the frontend repo:
+1.Clone the frontend repo:
 ```bash
 git clone https://github.com/<AdinathJabade>/Taskly-Frontend.git
 cd mytodo-frontend
@@ -88,7 +91,12 @@ Email: <adijabade5@gmail.com>
 yaml
 Copy code
 
----
+```
+# **Taskly App – Frontend**
+
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://Taskly-Frontend.netlify.app)
+
+**Taskly App Frontend** provides the user interface for MyTodo...
 
 
 
