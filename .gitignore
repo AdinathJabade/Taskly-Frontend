@@ -1,0 +1,8 @@
+# OS files
+.DS_Store
+
+# Node modules (if you ever use npm for frontend)
+node_modules/
+
+# Logs
+*.log
