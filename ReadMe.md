@@ -1,108 +1,76 @@
-# **Taskly-Frontend**
 
 
-**Taskly App Frontend** provides the user interface for MyTodo, allowing users to register, login, and manage their tasks. Built with **HTML, CSS, and JavaScript**, it communicates with the backend API.
+# Taskly Frontend
 
----
-
-## **Features**
-
-- Register and login with JWT authentication  
-- Add and delete tasks  
-- View tasks specific to the logged-in user  
-- Clean and responsive interface  
+Taskly is a simple, modern web app for managing your daily tasks. This repository contains the frontend codebase built with HTML, CSS, and JavaScript.
 
 ---
 
-## **Tech Stack**
+## Features
 
-- HTML, CSS, JavaScript  
-- Connects to Node.js + Express backend API  
-
----
-
-## **Folder Structure**
-
-Taskly-Frontend/
-
-├── index.html # To-Do page
-
-├── login.html # Login page
-
-├── register.html # Registration page
-
-├── style.css # Styling
-
-├── auth.js # Login & Register logic
-
-├── script.js # To-Do CRUD logic
-
-└── .gitignore
-
-yaml
-Copy code
+- User registration and login (JWT authentication)
+- Add, view, complete, and delete tasks
+- Responsive and clean UI
 
 ---
 
-## **Setup & Usage**
+## Tech Stack
 
-1.Clone the frontend repo:
-```bash
-git clone https://github.com/<AdinathJabade>/Taskly-Frontend.git
-cd mytodo-frontend
-Open HTML files in a browser (or use Live Server in VS Code)
+- HTML, CSS, JavaScript
 
-Update backend URLs in auth.js and script.js:
+---
 
-javascript
-Copy code
-const backendUrl = "https://Taskly-Backend.onrender.com/api/auth"; // login/register
-const backendUrlTodos = "https://Taskly-Backend.onrender.com/api/todos"; // tasks
-Register, login, and manage your tasks.
+## Getting Started
 
-Deployment
-Push frontend repo to GitHub
+1. Clone the repository:
+	```powershell
+	git clone https://github.com/AdinathJabade/Taskly-Frontend.git
+	cd Taskly-Frontend
+	```
+2. Open `index.html`, `login.html`, or `register.html` in your browser
+3. Update API URLs in `auth.js` and `script.js` if needed
 
-Deploy on Netlify (or Vercel)
+---
 
-Publish directory: ./
-
-Example frontend URL: https://Taskly-Frontend.netlify.app
-
-Contributing
-Fork the repo
-
-Create a feature branch: git checkout -b feature/YourFeature
-
-Commit changes: git commit -m "Add feature"
-
-Push branch: git push origin feature/YourFeature
-
-Open a pull request
-
-License:
-MIT License
-
-Contact:
-
-GitHub: https://github.com/<AdinathJabade>
-Email: <adijabade5@gmail.com>
-
-yaml
-Copy code
+## Folder Structure
 
 ```
-# **Taskly App – Frontend**
+Taskly-Frontend/
+├── index.html      # Dashboard
+├── login.html      # Login page
+├── register.html   # Registration page
+├── style.css       # Styles
+├── auth.js         # Auth logic
+├── script.js       # To-Do logic
+└── .gitignore      # Git ignore
+```
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://Taskly-Frontend.netlify.app)
+---
 
-**Taskly App Frontend** provides the user interface for MyTodo...
+## Screenshots
 
+Add screenshots in the `screenshots` folder and reference them here:
 
+### Registration
+![Register](screenshots/register.png)
 
+### Login
+![Login](screenshots/login.png)
 
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
+---
 
+## License
 
+MIT License
 
+---
 
+## Contact
+
+- GitHub: [AdinathJabade](https://github.com/AdinathJabade)
+- Email: adijabade5@gmail.com
+
+---
